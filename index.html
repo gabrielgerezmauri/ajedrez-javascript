@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajedrez en linea</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="buttonContainer">
+            <!-- <div>
+                <div id="levelLabel">
+                    <span>Level:</span>
+                </div>
+            </div>
+            <select id="level">
+                <option value="1">Level 1</option>
+                <option value="2">Level 2</option>
+                <option value="3">Level 3</option>
+                <option value="4">Level 4</option>
+                <option value="5">Level 5</option>
+                <option value="6">Level 6</option>
+                <option value="7">Level 7</option>
+                <option value="8">Level 8</option>
+                <option value="9">Level 9</option>
+                <option value="10">Level 10</option>
+            </select> -->
+            <div>
+                <button id="newGame">New Game</button>
+            </div>
+            <div>
+                <button id="switchSides">Switch Sides</button>
+            </div>
+            <!-- PONGO EL CUADRADITO CON LOS MOVIMIENTOS -->
+            <div id="moveNavigation">
+                <div id="fastBackward" class="navigation">
+                    <i class="fa fa-fast-backward"></i>
+                </div>
+                <div id="stepBackward" class="navigation">
+                    <i class="fa fa-step-backward"></i>
+                </div>
+                <div id="fastForward" class="navigation">
+                    <i class="fa fa-fast-forward"></i>
+                </div>
+                <div id="stepForward" class="navigation">
+                    <i class="fa fa-step-forward"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="tablero"></div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
